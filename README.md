@@ -51,6 +51,7 @@ password_manager.py: The main application script.
 data.json: Stores saved passwords in JSON format. Automatically created upon saving passwords if it does not exist.
 logo.png: Application logo displayed in the GUI.
 Customization
+
 Default Email/Username
 Update the email_entry.insert() line to set a preferred default username/email.
 
@@ -60,5 +61,6 @@ Modify colors, fonts, and layout by editing the window.config() and Label/Button
 Notes
 This application stores passwords locally without encryption. It is recommended to implement encryption for higher security.
 Ensure data.json is not publicly accessible.
+
 Contact
 Feel free to reach out for suggestions or queries.
